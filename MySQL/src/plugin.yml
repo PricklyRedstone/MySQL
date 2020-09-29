@@ -1,0 +1,5 @@
+name: MySQL
+main: br.prickyredstone.mysql.bridge.Eco
+version: 3.4.1
+depend: [Vault]
+load: STARTUP

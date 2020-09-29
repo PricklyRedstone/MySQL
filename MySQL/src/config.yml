@@ -1,0 +1,18 @@
+database:
+    mysql:
+        host: 127.0.0.1
+        port: 3306
+        databaseName: 'mydatabase'
+        dataTableName: 'prickly'
+        user: 'admin'
+        password: 'redstone'
+        sslEnabled: false
+    removeOldAccounts:
+        enabled: false
+        inactivity: 60
+
+General:
+    saveDataTask:
+        enabled: true
+        interval: 3
+        hideLogMessages: false
